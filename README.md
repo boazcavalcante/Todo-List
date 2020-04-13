@@ -5,7 +5,7 @@ Esta é uma aplicação Java Web (Java EE 7) que faz a criação, listagem, atua
 
 A aplicação foi desenvolvida no NetBeans IDE 8.2 RC. Ela roda sobre o servidor Apache TomCat (v8.0.27) e é acessada através de um navegador de internet (Google Chrome, Mozilla Firefox, etc).
 
-A base da aplicação foi construída em JSF* (v2.2) com JDK (v1.8), e utiliza o SGBD MySQL* (v5.5). Na camada de persistência de dados foi utilizado o framework ORM (Object Relational Mapping) Hibernate* (v4.3) que implementa a especificação JPA* (v2.1). Para o Hibernate se conectar ao MySQL foi utilizado o driver mysql-connector-java (v5.1.13). A interface foi estruturada em XHTML, com componentes Primefaces* (v7.0) e Bootstrap 4* (BootsFaces v1.4.2).
+A base da aplicação foi construída em JSF (v2.2) com JDK (v1.8), e utiliza o SGBD MySQL (v5.5). Na camada de persistência de dados foi utilizado o framework ORM (Object Relational Mapping) Hibernate (v4.3) que implementa a especificação JPA (v2.1). Para o Hibernate se conectar ao MySQL foi utilizado o driver mysql-connector-java (v5.1.13). A interface foi estruturada em XHTML, com componentes Primefaces (v7.0) e Bootstrap (BootsFaces v1.4.2).
 </p>
 
 ## Execução
@@ -30,17 +30,4 @@ Para minimizar a chance de erro na aplicação, listo aqui algumas soluções pa
 - Caso o navegador não encontre a página, altere o número da porta de acordo com as suas configurações do Apache. Certifique-se de configurar o usuário e senha do TomCat.
 
 - Caso a aplicação possua erros de conexão com o banco, abra o arquivo localizado em “/src/java/hibernate.cfg.xml” e altere as configurações do Hibernate de acordo com as propriedades do MySQL (Usuario, Senha, URL , Driver e Dialeto). Se você estiver usando outra versão do MySQL ou outro SGBD, busque pelo driver de conexão específico do seu banco.
-</p>
-
-#### Nota 
-<p>
-Este projeto compõe o desafio para recrutamento de desenvolvedor na empresa ESIG. Os itens solicitados na descrição do desafio, que foram implementados nesta aplicação, estão marcados com asterisco. 
-Suas respectivas letras se dão na seguinte ordem: 
-
-1. Item A; 
-2. Item B; 
-3. Item C; 
-4. Item C; 
-5. Item G; 
-6. Item F.
 </p>
